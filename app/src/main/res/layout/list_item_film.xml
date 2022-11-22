@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+  <ImageView
+      android:id="@+id/ImageFilm"
+      android:src="@drawable/film1"
+      android:layout_width="80dp"
+      android:layout_height="80dp"></ImageView>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="26dp"
+        android:id="@+id/TitleFilm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+    <ImageView
+        android:id="@+id/more"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/filmmeow"
+        android:layout_marginLeft="140dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"></ImageView>
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/back"
+    android:layout_height="match_parent">
+
+    <TextView
+
+        android:text="Title"
+        style="?android:listSeparatorTextViewStyle"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"></TextView>
+    <EditText
+        android:textColor="@color/white"
+        android:textColorLink="@color/white"
+        android:textColorHint="@color/white"
+        android:id="@+id/nameFilm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+    <TextView
+        android:text="Author"
+        style="?android:listSeparatorTextViewStyle"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"></TextView>
+    <EditText
+        android:textColor="@color/white"
+        android:textColorLink="@color/white"
+        android:textColorHint="@color/white"
+        android:id="@+id/author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+    <TextView
+        android:text="Genre of film"
+        style="?android:listSeparatorTextViewStyle"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"></TextView>
+    <EditText
+        android:textColor="@color/white"
+        android:textColorLink="@color/white"
+        android:textColorHint="@color/white"
+        android:id="@+id/GenreFilm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+    <ImageView
+        android:id="@+id/iamge1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ImageView>
+
+</LinearLayout>

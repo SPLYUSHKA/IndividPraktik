@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Var7IndividPraktik</string>
+    <string name="NameFragment">Коллекции</string>
+    <string name="Like">Избранное</string>
+    <string name="Time">Когда-нибудь</string>
+    <string name="GoWalk">В поездку</string>
+</resources>
